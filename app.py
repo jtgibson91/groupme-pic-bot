@@ -5,9 +5,9 @@ import logging
 
 # Configure the logger
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s',
-    				level=logging.INFO,
-    				datefmt='%Y-%m-%d %H:%M:%S', 
-					filename='groupme_pic_bot.log')
+    		    level=logging.INFO,
+    		    datefmt='%Y-%m-%d %H:%M:%S', 
+		    filename='groupme_pic_bot.log')
 
 
 # Fill these 3 items with your group id, groupme token id, and bot id
